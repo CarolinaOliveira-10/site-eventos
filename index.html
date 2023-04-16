@@ -10,36 +10,43 @@
 </head>
 
 <body>
-    <header> <img src="" alt="Logo site evento"></header>
-    <main class="eventos">
-        <!-- <h3 class="eventos-titulo">Lista de eventos</h3> -->
-        <section class="evento">
-            <img src="./imgs/maratona-programacao.jpg" width="400px" height="310.13px" alt="Curso de programação">
-            <div>
-                <h4>Maratona de programação</h4>
-                <h5>Data: 24/05/2023</h5>
-                <h5>Localização: </h5>
-            </div>
-        </section>
-        <section class="evento">
-            <img src="./imgs/curso-estetica-cosmetica.jpg" width="400px" height="310.13px" aria-labelledby="nome-evento" title="Foto do curso de estética">
-            <div>
-                <h4 id="nome-evento">Curso de estética </h4>
-                <h5>Data: 01/06/2023</h5>
-                <h5>Localização: </h5>
-            </div>
-        </section>
-        <section class="evento">
-            <div>
-                <img src="./imgs/campeonato-surf.jpg" width="400px" height="310.13px" aria-labelledby="nome-evento" title="Foto do curso de estética">
-                <h4 id="nome-evento">Campeonato de surf </h4>
-                <h5>Data: 01/06/2023</h5>
-                <h5>Localização: </h5>
-            </div>
+    <header> <img src="./imgs/logo-eventos.png" width="29px" ; height="29px" alt="Logo site evento"> Site de eventos</header>
+    <main>
+        <h3 class="eventos-titulo">Lista de eventos</h3>
+        <section class="eventos">
+            <section class="evento">
+                <img src="./imgs/maratona-programacao.jpg" alt="Curso de programação" class="evento-imagem">
+                <div>
+                    <h4>Maratona de programação</h4>
+                    <h5>Data: 24/05/2023</h5>
+                    <h5>Localização: </h5>
+                    <input type="radio" id="marcar-presenca" name="fav_language" value="curso-programacao"> Marcar presença no evento
+                </div>
+            </section>
+            <section class="evento">
+                <img src="./imgs/curso-estetica-cosmetica.jpg" aria-labelledby="nome-estetica"
+                    title="Foto do curso de estética" class="evento-imagem">
+                <div>
+                    <h4 id="nome-estetica">Curso de estética </h4>
+                    <h5>Data: 01/06/2023</h5>
+                    <h5>Localização: </h5>
+                    <input type="radio" id="marcar-presenca" name="fav_language" value="curso-estetica"> Marcar presença no evento
+                </div>
+            </section>
+            <section class="evento">
+                <div>
+                    <img src="./imgs/campeonato-surf.jpg" aria-labelledby="nome-surf" title="Foto do curso de estética" class="evento-imagem">
+                    <h4 id="nome-surf">Campeonato de surf </h4>
+                    <h5>Data: 01/06/2023</h5>
+                    <h5>Localização: </h5>
+                    <input type="radio" id="marcar-presenca" name="fav_language" value="curso-programacao"> Marcar presença no evento
+                </div>
+            </section>
         </section>
     </main>
     <footer>
 
     </footer>
+    <script src="./js/pagina-inicial.js"></script>
 </body>
 </html>
