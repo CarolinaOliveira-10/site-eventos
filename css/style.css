@@ -1,5 +1,6 @@
 * {
     font-family: sans-serif;
+    background-color: #F5F5F5;
 }
 
 header {
@@ -25,10 +26,15 @@ header {
     width: 100%;
     max-width: 387px;
     max-height: 256px;
-    height: auto;
 }
 
 .evento__descricao--encerrado {
-            color:  grey;
+    color: #990000;
 }
 
+footer {
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    width: 100%;
+}
