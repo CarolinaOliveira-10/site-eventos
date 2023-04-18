@@ -72,3 +72,28 @@ nome = 'WoMakersCode';
 nome = 'WoMakersCode';
 console.log(nome);
 var nome;
+
+
+
+
+
+
+
+
+
+
+
+
+/// JS
+//Mais utilizável e elegante;
+const array1 = [];
+
+const array2 = new Array();
+
+let a = 2;
+a = 3;
+console.log(a);
+
+var b = 2;
+b = 3;
+console.log(b);
