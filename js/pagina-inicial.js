@@ -1,8 +1,8 @@
 // Deixar o nome de funções claras
 aoClicarParaMarcarEvento();
 
-function aoClicarParaMarcarEvento(event){
-console.log('Teste')
+function aoClicarParaMarcarEvento(){
+console.log('evento marcado');
 }
 
 
@@ -12,20 +12,17 @@ console.log('Teste')
 
 
 // Declarações de informações únicas em um mesmo contexto.
+var numeros = [1,2,3];
+for(var i = 0; i < numeros.length; i++) {
+    const multiplicador = 2;
+    const somaNumeroMaisPosicao = numeros[i] * multiplicador;
+    console.log(somaNumeroMaisPosicao);
+}
 
 
-
-
-
-// 
-
-
-// this script used to check if the number is even or odd
-
-const num = 6;
-
-const result = (num % 2  != 0) ? "odd" : "even";
-
-// display the result
-
-console.log(`Number is ${result}.`);
+var numeros = [1,2,3];
+const multiplicador = 2;
+for(var i = 0; i < numeros.length; i++) {
+    const somaNumeroMaisPosicao = numeros[i] * multiplicador;
+    console.log(somaNumeroMaisPosicao);
+}
